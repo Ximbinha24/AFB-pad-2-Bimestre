@@ -1,0 +1,42 @@
+//Questão 01
+function someFun(n, callback) 
+{
+  callback(n.someProperty);
+  return 1;
+}
+
+// Questão 02
+function someFn(n) 
+{
+  const returnFunction = (valor) => 
+  {
+      switch (valor) 
+    {
+      case 3:
+      return 4;
+      case 1:
+      return 5;
+      case 5:
+      return 10;
+    }
+  }
+  return returnFunction
+}
+
+//Questão 03
+function calculator(n1, n2) ;
+{
+  return callback => callback(n1, n2);
+}
+
+//Questão 04
+// Aparecerá, respectivamente, "4", "1", "5" e "1"
+
+//Questão 05
+function tabuada(n) 
+{
+  for (let i = 1; i <= 10; i++) 
+  {
+    console.log(`${num} X ${i} = ${num * i}`)
+  }
+}
